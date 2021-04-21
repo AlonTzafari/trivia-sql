@@ -1,2 +1,1 @@
-# trivia-sql
- 
+# Trivia-Project
