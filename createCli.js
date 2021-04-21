@@ -45,9 +45,14 @@ const types = {
     age0To14Years: "string",
     age15To64Years: "string",
     ageAbove65Years: "string",
+    rank: "integer",
+    population: "integer",
+    date: "string",
+    populationSource: "string"
+
 }
 
-const columns = "country,region,coastline,netMigration,infantMortalityPer1000Births,gdpPerCapita,literacyPercent,phonesPer1000,arablePercent,cropsPercent,otherPercent,climate,birthrate,deathrate,agriculture,industry,service,capital,continent,costOfLivingIndex,rentIndex,costOfLivingPlusRentIndex,groceriesIndex,restaurantPriceIndex,localPurchasingPowerIndex,age0To14Years,age15To64Years,ageAbove65Years,crimeIndex,safetyIndex,healthCareIndex,healthCareExpIndex,priceToIncomeRatio,grossRentalYieldCityCentre,grossRentalYieldOutsideOfCentre,priceToRentRatioCityCentre,priceToRentRatioOutsideOfCityCentre,mortgageAsAPercentageOfIncome,affordabilityIndex,qualityOfLifeIndex,purchasingPowerIndex,propertyPriceToIncomeRatio,trafficCommuteTimeIndex,pollutionIndex,climateIndex";
+const columns = "country,region,coastline,netMigration,infantMortalityPer1000Births,gdpPerCapita,literacyPercent,phonesPer1000,arablePercent,cropsPercent,otherPercent,climate,birthrate,deathrate,agriculture,industry,service,capital,continent,costOfLivingIndex,rentIndex,costOfLivingPlusRentIndex,groceriesIndex,restaurantPriceIndex,localPurchasingPowerIndex,age0To14Years,age15To64Years,ageAbove65Years,crimeIndex,safetyIndex,healthCareIndex,healthCareExpIndex,priceToIncomeRatio,grossRentalYieldCityCentre,grossRentalYieldOutsideOfCentre,priceToRentRatioCityCentre,priceToRentRatioOutsideOfCityCentre,mortgageAsAPercentageOfIncome,affordabilityIndex,qualityOfLifeIndex,purchasingPowerIndex,propertyPriceToIncomeRatio,trafficCommuteTimeIndex,pollutionIndex,climateIndex,rank,areaKm2,areaMi2,population,densityPopOverKm2,densityPopOverMi2,date,populationSource";
 const columnsArr = columns.split(",");
 const columnsArrWithTypes = columnsArr.map( column =>  {
     const dataType = types[column] ? types[column] : "float";

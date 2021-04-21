@@ -49,7 +49,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Albania",
@@ -96,7 +104,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Algeria",
@@ -143,7 +159,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "American Samoa",
@@ -190,7 +214,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 197,
+            "areaMi2": 76,
+            "population": 57100,
+            "densityPopOverKm2": 290,
+            "densityPopOverMi2": 751,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Andorra",
@@ -237,7 +269,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 53,
+            "areaKm2": 464,
+            "areaMi2": 179,
+            "population": 76177,
+            "densityPopOverKm2": 164,
+            "densityPopOverMi2": 425,
+            "date": "December 31, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Anguilla",
@@ -284,7 +324,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 96,
+            "areaMi2": 37,
+            "population": 13452,
+            "densityPopOverKm2": 140,
+            "densityPopOverMi2": 363,
+            "date": "May 11, 2011",
+            "populationSource": "Preliminary 2011 census result"
         },
         {
             "country": "Antigua and Barbuda",
@@ -331,7 +379,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 40,
+            "areaKm2": 442,
+            "areaMi2": 171,
+            "population": 104084,
+            "densityPopOverKm2": 235,
+            "densityPopOverMi2": 609,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Argentina",
@@ -378,7 +434,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 24.53,
             "trafficCommuteTimeIndex": 43.08,
             "pollutionIndex": 50.67,
-            "climateIndex": 98.28
+            "climateIndex": 98.28,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Armenia",
@@ -425,7 +489,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Aruba",
@@ -472,7 +544,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 180,
+            "areaMi2": 69,
+            "population": 112309,
+            "densityPopOverKm2": 624,
+            "densityPopOverMi2": 1616,
+            "date": "January 1, 2019",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Australia",
@@ -519,7 +599,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 7.52,
             "trafficCommuteTimeIndex": 34.73,
             "pollutionIndex": 23.46,
-            "climateIndex": 92.7
+            "climateIndex": 92.7,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Austria",
@@ -566,7 +654,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 10.88,
             "trafficCommuteTimeIndex": 26.27,
             "pollutionIndex": 22.19,
-            "climateIndex": 77.3
+            "climateIndex": 77.3,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Azerbaijan",
@@ -613,7 +709,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Bahamas",
@@ -660,7 +764,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Bahrain",
@@ -707,7 +819,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 4,
+            "areaKm2": 778,
+            "areaMi2": 300,
+            "population": 1543300,
+            "densityPopOverKm2": 1983,
+            "densityPopOverMi2": 5136,
+            "date": "July 1, 2019",
+            "populationSource": "Official annual projection"
         },
         {
             "country": "Bangladesh",
@@ -754,7 +874,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 13.1,
             "trafficCommuteTimeIndex": 56.73,
             "pollutionIndex": 86.21,
-            "climateIndex": 71.29
+            "climateIndex": 71.29,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Barbados",
@@ -801,7 +929,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 9,
+            "areaKm2": 430,
+            "areaMi2": 166,
+            "population": 287025,
+            "densityPopOverKm2": 668,
+            "densityPopOverMi2": 1730,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Belarus",
@@ -848,7 +984,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 14.65,
             "trafficCommuteTimeIndex": 30.68,
             "pollutionIndex": 43.63,
-            "climateIndex": 64.37
+            "climateIndex": 64.37,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Belgium",
@@ -895,7 +1039,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 6.91,
             "trafficCommuteTimeIndex": 36.15,
             "pollutionIndex": 52.94,
-            "climateIndex": 85.99
+            "climateIndex": 85.99,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Belize",
@@ -942,7 +1094,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Benin",
@@ -989,7 +1149,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Bermuda",
@@ -1036,7 +1204,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 52,
+            "areaMi2": 20,
+            "population": 64027,
+            "densityPopOverKm2": 1227,
+            "densityPopOverMi2": 3178,
+            "date": "July 1, 2019",
+            "populationSource": "Official Projection"
         },
         {
             "country": "Bhutan",
@@ -1083,7 +1259,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Bosnia and Herzegovina",
@@ -1130,7 +1314,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.58,
             "trafficCommuteTimeIndex": 26.67,
             "pollutionIndex": 62.33,
-            "climateIndex": 80.48
+            "climateIndex": 80.48,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Botswana",
@@ -1177,7 +1369,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Brazil",
@@ -1224,7 +1424,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 16.41,
             "trafficCommuteTimeIndex": 41.7,
             "pollutionIndex": 54.98,
-            "climateIndex": 97.16
+            "climateIndex": 97.16,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "British Virgin Islands",
@@ -1271,7 +1479,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 151,
+            "areaMi2": 58,
+            "population": 32206,
+            "densityPopOverKm2": 213,
+            "densityPopOverMi2": 552,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Brunei",
@@ -1318,7 +1534,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Bulgaria",
@@ -1365,7 +1589,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.52,
             "trafficCommuteTimeIndex": 29.39,
             "pollutionIndex": 65.33,
-            "climateIndex": 82.76
+            "climateIndex": 82.76,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Burkina Faso",
@@ -1412,7 +1644,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Burma",
@@ -1459,7 +1699,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Burundi",
@@ -1506,7 +1754,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cambodia",
@@ -1553,7 +1809,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cape Verde",
@@ -1600,7 +1864,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cayman Islands",
@@ -1647,7 +1919,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 259,
+            "areaMi2": 100,
+            "population": 65813,
+            "densityPopOverKm2": 254,
+            "densityPopOverMi2": 658,
+            "date": "December 31, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Central African Republic",
@@ -1694,7 +1974,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Chad",
@@ -1741,7 +2029,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Chile",
@@ -1788,7 +2084,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 14.93,
             "trafficCommuteTimeIndex": 35.44,
             "pollutionIndex": 65.78,
-            "climateIndex": 90.21
+            "climateIndex": 90.21,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Colombia",
@@ -1835,7 +2139,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 19.65,
             "trafficCommuteTimeIndex": 47.49,
             "pollutionIndex": 62.83,
-            "climateIndex": 96.69
+            "climateIndex": 96.69,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Comoros",
@@ -1882,7 +2194,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 15,
+            "areaKm2": 1861,
+            "areaMi2": 719,
+            "population": 873724,
+            "densityPopOverKm2": 469,
+            "densityPopOverMi2": 1215,
+            "date": "July 1, 2019",
+            "populationSource": "Official Projection"
         },
         {
             "country": "Congo Democratic Republic",
@@ -1929,7 +2249,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Congo Republic",
@@ -1976,7 +2304,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cook Islands",
@@ -2023,7 +2359,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 237,
+            "areaMi2": 92,
+            "population": 15250,
+            "densityPopOverKm2": 64,
+            "densityPopOverMi2": 166,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Costa Rica",
@@ -2070,7 +2414,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cote d'Ivoire",
@@ -2117,7 +2469,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cuba",
@@ -2164,7 +2524,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Cyprus",
@@ -2211,7 +2579,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.2,
             "trafficCommuteTimeIndex": 23.95,
             "pollutionIndex": 53.55,
-            "climateIndex": 92.8
+            "climateIndex": 92.8,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Czech Republic",
@@ -2258,7 +2634,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 15.42,
             "trafficCommuteTimeIndex": 29.65,
             "pollutionIndex": 40.23,
-            "climateIndex": 77.13
+            "climateIndex": 77.13,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Denmark",
@@ -2305,7 +2689,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 7.45,
             "trafficCommuteTimeIndex": 28.85,
             "pollutionIndex": 21.33,
-            "climateIndex": 81.8
+            "climateIndex": 81.8,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Djibouti",
@@ -2352,7 +2744,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Dominica",
@@ -2399,7 +2799,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 88,
+            "areaKm2": 739,
+            "areaMi2": 285,
+            "population": 71808,
+            "densityPopOverKm2": 97,
+            "densityPopOverMi2": 251,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Dominican Republic",
@@ -2446,7 +2854,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "East Timor",
@@ -2493,7 +2909,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Ecuador",
@@ -2540,7 +2964,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.7,
             "trafficCommuteTimeIndex": 37.55,
             "pollutionIndex": 57,
-            "climateIndex": 94.51
+            "climateIndex": 94.51,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Egypt",
@@ -2587,7 +3019,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 13.01,
             "trafficCommuteTimeIndex": 49.78,
             "pollutionIndex": 85.65,
-            "climateIndex": 91.98
+            "climateIndex": 91.98,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "El Salvador",
@@ -2634,7 +3074,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Equatorial Guinea",
@@ -2681,7 +3129,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Estonia",
@@ -2728,7 +3184,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 9.06,
             "trafficCommuteTimeIndex": 24.53,
             "pollutionIndex": 19.81,
-            "climateIndex": 64.28
+            "climateIndex": 64.28,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Ethiopia",
@@ -2775,7 +3239,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Fiji",
@@ -2822,7 +3294,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Finland",
@@ -2869,7 +3349,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.35,
             "trafficCommuteTimeIndex": 29.9,
             "pollutionIndex": 11.55,
-            "climateIndex": 58.87
+            "climateIndex": 58.87,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "France",
@@ -2916,7 +3404,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 13.04,
             "trafficCommuteTimeIndex": 34.76,
             "pollutionIndex": 43.56,
-            "climateIndex": 90.25
+            "climateIndex": 90.25,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "French Guiana",
@@ -2963,7 +3459,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "French Polynesia",
@@ -3010,7 +3514,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Gabon",
@@ -3057,7 +3569,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Gambia",
@@ -3104,7 +3624,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Georgia",
@@ -3151,7 +3679,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 14.21,
             "trafficCommuteTimeIndex": 36.02,
             "pollutionIndex": 71.09,
-            "climateIndex": 84.2
+            "climateIndex": 84.2,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Germany",
@@ -3198,7 +3734,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 9.38,
             "trafficCommuteTimeIndex": 30.98,
             "pollutionIndex": 29.03,
-            "climateIndex": 83
+            "climateIndex": 83,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Ghana",
@@ -3245,7 +3789,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Greece",
@@ -3292,7 +3844,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 10.6,
             "trafficCommuteTimeIndex": 33.84,
             "pollutionIndex": 52.55,
-            "climateIndex": 94.18
+            "climateIndex": 94.18,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Greenland",
@@ -3339,7 +3899,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Grenada",
@@ -3386,7 +3954,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 27,
+            "areaKm2": 344,
+            "areaMi2": 133,
+            "population": 108825,
+            "densityPopOverKm2": 316,
+            "densityPopOverMi2": 818,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Guadeloupe",
@@ -3433,7 +4009,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 1628.4,
+            "areaMi2": 629,
+            "population": 395725,
+            "densityPopOverKm2": 243,
+            "densityPopOverMi2": 629,
+            "date": "January 1, 2016",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Guam",
@@ -3480,7 +4064,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 541,
+            "areaMi2": 209,
+            "population": 175200,
+            "densityPopOverKm2": 324,
+            "densityPopOverMi2": 839,
+            "date": "July 1, 2019",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Guatemala",
@@ -3527,7 +4119,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Guernsey",
@@ -3574,7 +4174,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 78,
+            "areaMi2": 30,
+            "population": 62723,
+            "densityPopOverKm2": 804,
+            "densityPopOverMi2": 2082,
+            "date": "March 31, 2016",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Guinea",
@@ -3621,7 +4229,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Guinea-Bissau",
@@ -3668,7 +4284,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Guyana",
@@ -3715,7 +4339,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Haiti",
@@ -3762,7 +4394,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Honduras",
@@ -3809,7 +4449,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Hong Kong",
@@ -3856,7 +4504,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 47.46,
             "trafficCommuteTimeIndex": 41.46,
             "pollutionIndex": 67.69,
-            "climateIndex": 83.64
+            "climateIndex": 83.64,
+            "rank": null,
+            "areaKm2": 1106,
+            "areaMi2": 427,
+            "population": 7500700,
+            "densityPopOverKm2": 6782,
+            "densityPopOverMi2": 17565,
+            "date": "December 31, 2019",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Hungary",
@@ -3903,7 +4559,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 14.77,
             "trafficCommuteTimeIndex": 35.78,
             "pollutionIndex": 48.29,
-            "climateIndex": 79.48
+            "climateIndex": 79.48,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Iceland",
@@ -3950,7 +4614,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 6.74,
             "trafficCommuteTimeIndex": 20.1,
             "pollutionIndex": 16.21,
-            "climateIndex": 68.81
+            "climateIndex": 68.81,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Indonesia",
@@ -3997,7 +4669,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 18.88,
             "trafficCommuteTimeIndex": 43.11,
             "pollutionIndex": 66.56,
-            "climateIndex": 74.15
+            "climateIndex": 74.15,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Iran",
@@ -4044,7 +4724,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 25.11,
             "trafficCommuteTimeIndex": 48.01,
             "pollutionIndex": 77.45,
-            "climateIndex": 70.99
+            "climateIndex": 70.99,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Iraq",
@@ -4091,7 +4779,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Ireland",
@@ -4138,7 +4834,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 7.49,
             "trafficCommuteTimeIndex": 37.68,
             "pollutionIndex": 33.99,
-            "climateIndex": 89.13
+            "climateIndex": 89.13,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Isle of Man",
@@ -4185,7 +4889,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 572,
+            "areaMi2": 221,
+            "population": 83314,
+            "densityPopOverKm2": 146,
+            "densityPopOverMi2": 378,
+            "date": "April 24, 2016",
+            "populationSource": "2016 census result"
         },
         {
             "country": "Israel",
@@ -4232,7 +4944,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.83,
             "trafficCommuteTimeIndex": 35.91,
             "pollutionIndex": 57.25,
-            "climateIndex": 93.78
+            "climateIndex": 93.78,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Jamaica",
@@ -4279,7 +4999,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Japan",
@@ -4326,7 +5054,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 13,
             "trafficCommuteTimeIndex": 39.15,
             "pollutionIndex": 39.59,
-            "climateIndex": 84.79
+            "climateIndex": 84.79,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Jersey",
@@ -4373,7 +5109,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 116,
+            "areaMi2": 45,
+            "population": 104200,
+            "densityPopOverKm2": 898,
+            "densityPopOverMi2": 2326,
+            "date": "December 31, 2016",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Jordan",
@@ -4420,7 +5164,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.42,
             "trafficCommuteTimeIndex": 42.03,
             "pollutionIndex": 77.78,
-            "climateIndex": 89.05
+            "climateIndex": 89.05,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Kazakhstan",
@@ -4467,7 +5219,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 10.86,
             "trafficCommuteTimeIndex": 31.08,
             "pollutionIndex": 75.15,
-            "climateIndex": 39.78
+            "climateIndex": 39.78,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Kiribati",
@@ -4514,7 +5274,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 55,
+            "areaKm2": 811,
+            "areaMi2": 313,
+            "population": 125000,
+            "densityPopOverKm2": 154,
+            "densityPopOverMi2": 399,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Kuwait",
@@ -4561,7 +5329,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.28,
             "trafficCommuteTimeIndex": 34.44,
             "pollutionIndex": 68.69,
-            "climateIndex": 20.22
+            "climateIndex": 20.22,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Laos",
@@ -4608,7 +5384,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Latvia",
@@ -4655,7 +5439,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.85,
             "trafficCommuteTimeIndex": 32.89,
             "pollutionIndex": 33.73,
-            "climateIndex": 74.7
+            "climateIndex": 74.7,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Lesotho",
@@ -4702,7 +5494,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Liberia",
@@ -4749,7 +5549,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Liechtenstein",
@@ -4796,7 +5604,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 37,
+            "areaKm2": 160,
+            "areaMi2": 62,
+            "population": 38380,
+            "densityPopOverKm2": 240,
+            "densityPopOverMi2": 622,
+            "date": "December 31, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Macau",
@@ -4843,7 +5659,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 32.9,
+            "areaMi2": 13,
+            "population": 676100,
+            "densityPopOverKm2": 20550,
+            "densityPopOverMi2": 53224,
+            "date": "September 30, 2019",
+            "populationSource": "Official quarterly estimate"
         },
         {
             "country": "Macedonia",
@@ -4890,7 +5714,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Madagascar",
@@ -4937,7 +5769,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Malawi",
@@ -4984,7 +5824,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Malaysia",
@@ -5031,7 +5879,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 9.94,
             "trafficCommuteTimeIndex": 37.03,
             "pollutionIndex": 63.18,
-            "climateIndex": 57.92
+            "climateIndex": 57.92,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Maldives",
@@ -5078,7 +5934,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 6,
+            "areaKm2": 298,
+            "areaMi2": 115,
+            "population": 374775,
+            "densityPopOverKm2": 1258,
+            "densityPopOverMi2": 3258,
+            "date": "December 31, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Mali",
@@ -5125,7 +5989,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Marshall Islands",
@@ -5172,7 +6044,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 28,
+            "areaKm2": 181,
+            "areaMi2": 70,
+            "population": 55900,
+            "densityPopOverKm2": 309,
+            "densityPopOverMi2": 800,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Martinique",
@@ -5219,7 +6099,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 1128,
+            "areaMi2": 436,
+            "population": 371246,
+            "densityPopOverKm2": 329,
+            "densityPopOverMi2": 852,
+            "date": "January 1, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Mauritania",
@@ -5266,7 +6154,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Mauritius",
@@ -5313,7 +6209,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 10,
+            "areaKm2": 2040,
+            "areaMi2": 788,
+            "population": 1265577,
+            "densityPopOverKm2": 620,
+            "densityPopOverMi2": 1606,
+            "date": "July 1, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Mayotte",
@@ -5360,7 +6264,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 374,
+            "areaMi2": 144,
+            "population": 256518,
+            "densityPopOverKm2": 686,
+            "densityPopOverMi2": 1777,
+            "date": "September 5, 2017",
+            "populationSource": "2017 census result"
         },
         {
             "country": "Micronesia. Fed. St.",
@@ -5407,7 +6319,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Mongolia",
@@ -5454,7 +6374,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Montserrat",
@@ -5501,7 +6429,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 102,
+            "areaMi2": 39,
+            "population": 4922,
+            "densityPopOverKm2": 48,
+            "densityPopOverMi2": 124,
+            "date": "May 12, 2011",
+            "populationSource": "2011 census result"
         },
         {
             "country": "Mozambique",
@@ -5548,7 +6484,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "N. Mariana Islands",
@@ -5595,7 +6539,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Namibia",
@@ -5642,7 +6594,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Nauru",
@@ -5689,7 +6649,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 12,
+            "areaKm2": 21,
+            "areaMi2": 8,
+            "population": 11200,
+            "densityPopOverKm2": 533,
+            "densityPopOverMi2": 1380,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Netherlands",
@@ -5736,7 +6704,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 7.51,
             "trafficCommuteTimeIndex": 29.43,
             "pollutionIndex": 27.41,
-            "climateIndex": 87.61
+            "climateIndex": 87.61,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Netherlands Antilles",
@@ -5783,7 +6759,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "New Caledonia",
@@ -5830,7 +6814,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "New Zealand",
@@ -5877,7 +6869,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.52,
             "trafficCommuteTimeIndex": 31.1,
             "pollutionIndex": 23.4,
-            "climateIndex": 95.46
+            "climateIndex": 95.46,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Nicaragua",
@@ -5924,7 +6924,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Niger",
@@ -5971,7 +6979,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "North Korea",
@@ -6018,7 +7034,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Norway",
@@ -6065,7 +7089,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.77,
             "trafficCommuteTimeIndex": 26.99,
             "pollutionIndex": 20.35,
-            "climateIndex": 71.37
+            "climateIndex": 71.37,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Oman",
@@ -6112,7 +7144,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 9.08,
             "trafficCommuteTimeIndex": 22.8,
             "pollutionIndex": 37.74,
-            "climateIndex": 67.22
+            "climateIndex": 67.22,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Pakistan",
@@ -6159,7 +7199,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 11.98,
             "trafficCommuteTimeIndex": 38.56,
             "pollutionIndex": 74.25,
-            "climateIndex": 71.93
+            "climateIndex": 71.93,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Palau",
@@ -6206,7 +7254,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 140,
+            "areaKm2": 444,
+            "areaMi2": 171,
+            "population": 17900,
+            "densityPopOverKm2": 40,
+            "densityPopOverMi2": 104,
+            "date": "July 1, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Panama",
@@ -6253,7 +7309,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.6,
             "trafficCommuteTimeIndex": 36.48,
             "pollutionIndex": 63.09,
-            "climateIndex": 67.84
+            "climateIndex": 67.84,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Papua New Guinea",
@@ -6300,7 +7364,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Paraguay",
@@ -6347,7 +7419,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Philippines",
@@ -6394,7 +7474,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 24.6,
             "trafficCommuteTimeIndex": 44.63,
             "pollutionIndex": 74.28,
-            "climateIndex": 60.81
+            "climateIndex": 60.81,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Poland",
@@ -6441,7 +7529,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 11.38,
             "trafficCommuteTimeIndex": 31.72,
             "pollutionIndex": 54.46,
-            "climateIndex": 76.14
+            "climateIndex": 76.14,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Portugal",
@@ -6488,7 +7584,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.7,
             "trafficCommuteTimeIndex": 30,
             "pollutionIndex": 30.89,
-            "climateIndex": 97.31
+            "climateIndex": 97.31,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Puerto Rico",
@@ -6535,7 +7639,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Qatar",
@@ -6582,7 +7694,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 5.82,
             "trafficCommuteTimeIndex": 29.72,
             "pollutionIndex": 61.06,
-            "climateIndex": 36.03
+            "climateIndex": 36.03,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Reunion",
@@ -6629,7 +7749,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 2503.7,
+            "areaMi2": 967,
+            "population": 850996,
+            "densityPopOverKm2": 340,
+            "densityPopOverMi2": 881,
+            "date": "January 1, 2016",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Romania",
@@ -6676,7 +7804,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 11.33,
             "trafficCommuteTimeIndex": 34.75,
             "pollutionIndex": 58.42,
-            "climateIndex": 77.62
+            "climateIndex": 77.62,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Rwanda",
@@ -6723,7 +7859,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Saint Kitts and Nevis",
@@ -6770,7 +7914,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 46,
+            "areaKm2": 270,
+            "areaMi2": 104,
+            "population": 56345,
+            "densityPopOverKm2": 209,
+            "densityPopOverMi2": 541,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Saint Lucia",
@@ -6817,7 +7969,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 29,
+            "areaKm2": 617,
+            "areaMi2": 238,
+            "population": 180454,
+            "densityPopOverKm2": 292,
+            "densityPopOverMi2": 756,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Saint Vincent and the Grenadines",
@@ -6864,7 +8024,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 31,
+            "areaKm2": 389,
+            "areaMi2": 150,
+            "population": 110520,
+            "densityPopOverKm2": 284,
+            "densityPopOverMi2": 736,
+            "date": "July 1, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Samoa",
@@ -6911,7 +8079,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Sao Tome and Principe",
@@ -6958,7 +8134,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 49,
+            "areaKm2": 1001,
+            "areaMi2": 386,
+            "population": 201784,
+            "densityPopOverKm2": 202,
+            "densityPopOverMi2": 523,
+            "date": "July 1, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Saudi Arabia",
@@ -7005,7 +8189,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 2.79,
             "trafficCommuteTimeIndex": 28.61,
             "pollutionIndex": 65.09,
-            "climateIndex": 45.98
+            "climateIndex": 45.98,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Senegal",
@@ -7052,7 +8244,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Seychelles",
@@ -7099,7 +8299,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 44,
+            "areaKm2": 455,
+            "areaMi2": 176,
+            "population": 96762,
+            "densityPopOverKm2": 213,
+            "densityPopOverMi2": 552,
+            "date": "June 30, 2018",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Sierra Leone",
@@ -7146,7 +8354,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Singapore",
@@ -7193,7 +8409,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 22.31,
             "trafficCommuteTimeIndex": 41.31,
             "pollutionIndex": 33.48,
-            "climateIndex": 57.45
+            "climateIndex": 57.45,
+            "rank": 2,
+            "areaKm2": 722.5,
+            "areaMi2": 279,
+            "population": 5703600,
+            "densityPopOverKm2": 7894,
+            "densityPopOverMi2": 20445,
+            "date": "July 1, 2019",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Slovakia",
@@ -7240,7 +8464,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 10.25,
             "trafficCommuteTimeIndex": 29.11,
             "pollutionIndex": 39.66,
-            "climateIndex": 78.13
+            "climateIndex": 78.13,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Solomon Islands",
@@ -7287,7 +8519,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Somalia",
@@ -7334,7 +8574,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "South Africa",
@@ -7381,7 +8629,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 3.93,
             "trafficCommuteTimeIndex": 39.43,
             "pollutionIndex": 57.3,
-            "climateIndex": 95.25
+            "climateIndex": 95.25,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "South Korea",
@@ -7428,7 +8684,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 17.37,
             "trafficCommuteTimeIndex": 39.57,
             "pollutionIndex": 62.48,
-            "climateIndex": 68.39
+            "climateIndex": 68.39,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Spain",
@@ -7475,7 +8739,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 9.37,
             "trafficCommuteTimeIndex": 29.1,
             "pollutionIndex": 39.99,
-            "climateIndex": 94.19
+            "climateIndex": 94.19,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Sri Lanka",
@@ -7522,7 +8794,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 31.14,
             "trafficCommuteTimeIndex": 59.01,
             "pollutionIndex": 59.14,
-            "climateIndex": 59.11
+            "climateIndex": 59.11,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Sudan",
@@ -7569,7 +8849,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Suriname",
@@ -7616,7 +8904,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Sweden",
@@ -7663,7 +8959,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 9.27,
             "trafficCommuteTimeIndex": 30.49,
             "pollutionIndex": 18.09,
-            "climateIndex": 73.97
+            "climateIndex": 73.97,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Switzerland",
@@ -7710,7 +9014,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 8.68,
             "trafficCommuteTimeIndex": 29.09,
             "pollutionIndex": 22.39,
-            "climateIndex": 79.24
+            "climateIndex": 79.24,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Syria",
@@ -7757,7 +9069,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Taiwan",
@@ -7804,7 +9124,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 23.69,
             "trafficCommuteTimeIndex": 31.93,
             "pollutionIndex": 63.35,
-            "climateIndex": 84.38
+            "climateIndex": 84.38,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Tajikistan",
@@ -7851,7 +9179,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Thailand",
@@ -7898,7 +9234,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 22.26,
             "trafficCommuteTimeIndex": 38.23,
             "pollutionIndex": 75.07,
-            "climateIndex": 69.45
+            "climateIndex": 69.45,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Togo",
@@ -7945,7 +9289,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Tonga",
@@ -7992,7 +9344,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 61,
+            "areaKm2": 720,
+            "areaMi2": 278,
+            "population": 100000,
+            "densityPopOverKm2": 139,
+            "densityPopOverMi2": 360,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Trinidad and Tobago",
@@ -8039,7 +9399,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Tunisia",
@@ -8086,7 +9454,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Turkey",
@@ -8133,7 +9509,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 7.81,
             "trafficCommuteTimeIndex": 44.65,
             "pollutionIndex": 67.35,
-            "climateIndex": 93.26
+            "climateIndex": 93.26,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Turkmenistan",
@@ -8180,7 +9564,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Turks and Caicos Islands",
@@ -8227,7 +9619,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 497,
+            "areaMi2": 192,
+            "population": 37910,
+            "densityPopOverKm2": 76,
+            "densityPopOverMi2": 197,
+            "date": "July 1, 2016",
+            "populationSource": "Official estimate"
         },
         {
             "country": "Tuvalu",
@@ -8274,7 +9674,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": 21,
+            "areaKm2": 26,
+            "areaMi2": 10,
+            "population": 10300,
+            "densityPopOverKm2": 396,
+            "densityPopOverMi2": 1026,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Uganda",
@@ -8321,7 +9729,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Ukraine",
@@ -8368,7 +9784,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 12.23,
             "trafficCommuteTimeIndex": 38.65,
             "pollutionIndex": 65.08,
-            "climateIndex": 71.42
+            "climateIndex": 71.42,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "United Arab Emirates",
@@ -8415,7 +9839,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 5.29,
             "trafficCommuteTimeIndex": 36.85,
             "pollutionIndex": 51.15,
-            "climateIndex": 45.23
+            "climateIndex": 45.23,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "United Kingdom",
@@ -8462,7 +9894,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 10.09,
             "trafficCommuteTimeIndex": 34.53,
             "pollutionIndex": 40.56,
-            "climateIndex": 87.62
+            "climateIndex": 87.62,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "United States",
@@ -8509,7 +9949,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 3.52,
             "trafficCommuteTimeIndex": 32.89,
             "pollutionIndex": 36.88,
-            "climateIndex": 77.54
+            "climateIndex": 77.54,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Uruguay",
@@ -8556,7 +10004,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 16.34,
             "trafficCommuteTimeIndex": 39.89,
             "pollutionIndex": 44.84,
-            "climateIndex": 98.04
+            "climateIndex": 98.04,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "US Virgin Islands",
@@ -8603,7 +10059,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 352,
+            "areaMi2": 136,
+            "population": 104909,
+            "densityPopOverKm2": 298,
+            "densityPopOverMi2": 772,
+            "date": "July 1, 2019",
+            "populationSource": "UN projection"
         },
         {
             "country": "Uzbekistan",
@@ -8650,7 +10114,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Vanuatu",
@@ -8697,7 +10169,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Venezuela",
@@ -8744,7 +10224,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Vietnam",
@@ -8791,7 +10279,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": 21.36,
             "trafficCommuteTimeIndex": 30.17,
             "pollutionIndex": 86.47,
-            "climateIndex": 71.24
+            "climateIndex": 71.24,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Wallis and Futuna",
@@ -8838,7 +10334,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": 142,
+            "areaMi2": 55,
+            "population": 11600,
+            "densityPopOverKm2": 82,
+            "densityPopOverMi2": 212,
+            "date": "July 1, 2020",
+            "populationSource": "Annual projection"
         },
         {
             "country": "Yemen",
@@ -8885,7 +10389,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Zambia",
@@ -8932,7 +10444,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         },
         {
             "country": "Zimbabwe",
@@ -8979,7 +10499,15 @@ module.exports = {
             "propertyPriceToIncomeRatio": null,
             "trafficCommuteTimeIndex": null,
             "pollutionIndex": null,
-            "climateIndex": null
+            "climateIndex": null,
+            "rank": null,
+            "areaKm2": null,
+            "areaMi2": null,
+            "population": null,
+            "densityPopOverKm2": null,
+            "densityPopOverMi2": null,
+            "date": null,
+            "populationSource": null
         }
     ], {});
   },

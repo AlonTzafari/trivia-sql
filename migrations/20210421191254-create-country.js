@@ -143,6 +143,30 @@ module.exports = {
       climateIndex: {
         type: Sequelize.FLOAT
       },
+      rank: {
+        type: Sequelize.INTEGER
+      },
+      areaKm2: {
+        type: Sequelize.FLOAT
+      },
+      areaMi2: {
+        type: Sequelize.FLOAT
+      },
+      population: {
+        type: Sequelize.INTEGER
+      },
+      densityPopOverKm2: {
+        type: Sequelize.FLOAT
+      },
+      densityPopOverMi2: {
+        type: Sequelize.FLOAT
+      },
+      date: {
+        type: Sequelize.STRING
+      },
+      populationSource: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

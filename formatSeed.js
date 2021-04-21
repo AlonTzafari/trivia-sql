@@ -5,7 +5,7 @@ const countries = JSON.parse(countriesRaw);
 // console.log(countries);
 countries.forEach(country => {
     for(const key in country) {
-        if (country[key] === "NULL" || country[key] === "") country[key] = null; 
+        if (country[key] === "NULL" || country[key] === "" || country[key] === "–") country[key] = null; 
     }
 });
 // console.log(countries);

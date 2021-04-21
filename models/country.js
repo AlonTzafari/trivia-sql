@@ -59,14 +59,14 @@ module.exports = (sequelize, DataTypes) => {
     trafficCommuteTimeIndex: DataTypes.FLOAT,
     pollutionIndex: DataTypes.FLOAT,
     climateIndex: DataTypes.FLOAT,
-    createdAt: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW
-    },
-    updatedAt: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW
-    }
+    rank: DataTypes.INTEGER,
+    areaKm2: DataTypes.FLOAT,
+    areaMi2: DataTypes.FLOAT,
+    population: DataTypes.INTEGER,
+    densityPopOverKm2: DataTypes.FLOAT,
+    densityPopOverMi2: DataTypes.FLOAT,
+    date: DataTypes.STRING,
+    populationSource: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Country',
