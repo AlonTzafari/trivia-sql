@@ -1,4 +1,4 @@
-const {Country, Question, Template, sequelize} = require('../models');
+const {Country, Question, Template, User, sequelize} = require('../models');
 const {Sequelize, Op} = require('sequelize');
 
 async function findCountryById(id) {
@@ -55,11 +55,16 @@ async function saveQuestion(questionObj) {
     const question = Question.build(questionObj);
     await question.save();
 }
+async function saveUser(username) {
+    const user = User.build({name: username});
+    await question.save();
+}
 
 module.exports = {
     findCountryById,
     getRandomTemplate,
     getRandomCountriesWithColumn,
     getRandomValuesFromColumn,
-    getRandomQuestion
+    getRandomQuestion,
+    saveUser
 };
