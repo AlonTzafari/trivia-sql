@@ -1,13 +1,13 @@
 const {getRandomTemplate, getRandomCountriesWithColumn, getRandomValuesFromColumn} = require('./query');
-const main = async () => {
-    const template = await getRandomTemplate();
-    console.log("template: ", template);
-    // const countries = await getRandomCountriesWithColumn('crimeIndex', 3);
-    // console.log(countries);
-    const question = await createRandomQuestion(template);
-    console.log("question: ", question);
-}
-main();
+// const main = async () => {
+//     const template = await getRandomTemplate();
+//     console.log("template: ", template);
+//     // const countries = await getRandomCountriesWithColumn('crimeIndex', 3);
+//     // console.log(countries);
+//     const question = await createRandomQuestion(template);
+//     console.log("question: ", question);
+// }
+// main();
 
 async function createRandomQuestion({type, template, column, comparison}) {
     if (type === 1) {
@@ -62,4 +62,6 @@ async function createRandomQuestion({type, template, column, comparison}) {
     } else {
         throw new Error('Invalid template type');
     }
-}
+};
+
+module.exports = {createRandomQuestion};
