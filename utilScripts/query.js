@@ -1,4 +1,4 @@
-const {Country, Question, Template} = require('../models');
+const {Country, Question, Template, sequelize} = require('../models');
 const {Sequelize, Op} = require('sequelize');
 
 async function findCountryById(id) {
@@ -15,7 +15,7 @@ async function getRandomTemplate(id) {
     .then( template => template[0].toJSON() )
 }
 
-async function getRandomCountrysWithColumn(column, num = 1) {
+async function getRandomCountriesWithColumn(column, num = 1) {
     const filter = {};
     filter[column] = { [Op.not]: null };
 
@@ -27,5 +27,22 @@ async function getRandomCountrysWithColumn(column, num = 1) {
     })
     .then( countries => countries.map( country => country.toJSON() ) )
 }
+async function getRandomValuesFromColumn(column, num = 1, filterId = null) {
+    const filter = { id: { [Op.ne]: filterId } };
+    filter[column] = { [Op.not]: null };
 
-module.exports = {findCountryById, getRandomTemplate, getRandomCountrysWithColumn};
+    return Country.findAll({
+        where: filter,
+        order: Sequelize.literal('rand()'),
+        limit: num,
+        attributes:[ [Sequelize.fn('DISTINCT', Sequelize.col(column)), column] ]
+    })
+    .then( countries => countries.map( country => country.toJSON() ) )
+}
+
+module.exports = {
+    findCountryById,
+    getRandomTemplate,
+    getRandomCountriesWithColumn,
+    getRandomValuesFromColumn,
+};
