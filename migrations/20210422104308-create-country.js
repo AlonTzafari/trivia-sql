@@ -11,6 +11,15 @@ module.exports = {
       country: {
         type: Sequelize.STRING
       },
+      km: {
+        type: Sequelize.FLOAT
+      },
+      population: {
+        type: Sequelize.FLOAT
+      },
+      densityPopKm: {
+        type: Sequelize.FLOAT
+      },
       region: {
         type: Sequelize.STRING
       },
@@ -20,29 +29,29 @@ module.exports = {
       netMigration: {
         type: Sequelize.FLOAT
       },
-      infantMortalityPer1000Births: {
+      infantMortalityPerThousandBirths: {
         type: Sequelize.FLOAT
       },
       gdpPerCapita: {
-        type: Sequelize.INTEGER
-      },
-      literacyPercent: {
         type: Sequelize.FLOAT
       },
-      phonesPer1000: {
+      literacy: {
         type: Sequelize.FLOAT
       },
-      arablePercent: {
+      phonesPerThousand: {
         type: Sequelize.FLOAT
       },
-      cropsPercent: {
+      arable: {
         type: Sequelize.FLOAT
       },
-      otherPercent: {
+      crops: {
+        type: Sequelize.FLOAT
+      },
+      other: {
         type: Sequelize.FLOAT
       },
       climate: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       birthrate: {
         type: Sequelize.FLOAT
@@ -83,13 +92,13 @@ module.exports = {
       localPurchasingPowerIndex: {
         type: Sequelize.FLOAT
       },
-      age0To14Years: {
+      ageZeroToFourteenYears: {
         type: Sequelize.STRING
       },
-      age15To64Years: {
+      ageFifteenToSixtyFourYears: {
         type: Sequelize.STRING
       },
-      ageAbove65Years: {
+      ageAboveSixtyFiveYears: {
         type: Sequelize.STRING
       },
       crimeIndex: {
@@ -142,30 +151,6 @@ module.exports = {
       },
       climateIndex: {
         type: Sequelize.FLOAT
-      },
-      rank: {
-        type: Sequelize.INTEGER
-      },
-      areaKm2: {
-        type: Sequelize.FLOAT
-      },
-      areaMi2: {
-        type: Sequelize.FLOAT
-      },
-      population: {
-        type: Sequelize.INTEGER
-      },
-      densityPopOverKm2: {
-        type: Sequelize.FLOAT
-      },
-      densityPopOverMi2: {
-        type: Sequelize.FLOAT
-      },
-      date: {
-        type: Sequelize.STRING
-      },
-      populationSource: {
-        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
