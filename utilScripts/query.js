@@ -40,9 +40,26 @@ async function getRandomValuesFromColumn(column, num = 1, filterId = null) {
     .then( countries => countries.map( country => country.toJSON() ) )
 }
 
+async function getRandomQuestion() {
+    return Question.findAll({
+        where: filter,
+        order: Sequelize.literal('rand()'),
+        limit: 1
+    })
+    .then( question => question[0].toJSON() );
+}
+
+
+
+async function saveQuestion(questionObj) {
+    const question = Question.build(questionObj);
+    await question.save();
+}
+
 module.exports = {
     findCountryById,
     getRandomTemplate,
     getRandomCountriesWithColumn,
     getRandomValuesFromColumn,
+    getRandomQuestion
 };
