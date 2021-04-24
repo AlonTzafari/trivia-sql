@@ -31,6 +31,7 @@ function Trivia() {
     return (
         <div>
             <h1>Trivia</h1>
+            <p>{`Strikes: ${strikes}`}</p>
             {strikes >= 3 ?
                 <> 
                     <h2>WELL DONE</h2>
