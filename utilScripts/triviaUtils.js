@@ -11,7 +11,7 @@ async function getRandomQuestion(generate = true) {
 }
 
 async function registerUser(username) {
-    await saveUser({username})
+    return await saveUser({username})
 }
 
 module.exports = {getRandomQuestion, registerUser};

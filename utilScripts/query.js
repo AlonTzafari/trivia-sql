@@ -55,10 +55,20 @@ async function saveQuestion(questionObj) {
     const question = Question.build(questionObj);
     await question.save();
 }
+
 async function saveUser(username) {
     const user = User.build({name: username});
     await question.save();
 }
+
+async function updateUserScore(id, score) {
+    User.findOne({
+        where: {id}
+    })
+    .then( user => user.update({score}) );
+}
+
+
 
 module.exports = {
     findCountryById,
