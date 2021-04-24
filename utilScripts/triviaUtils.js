@@ -1,5 +1,5 @@
 const {createRandomQuestion} = require('./questionGenerator');
-const {getRandomTemplate, getRandomQuestion: randQuestion, saveUser} = require('./query');
+const {getRandomTemplate, getRandomQuestion: randQuestion, saveUser} = require('./Database');
 
 async function getRandomQuestion(generate = true) {
     if (generate) {
@@ -10,8 +10,4 @@ async function getRandomQuestion(generate = true) {
     }
 }
 
-async function registerUser(username) {
-    return await saveUser({username})
-}
-
-module.exports = {getRandomQuestion, registerUser};
+module.exports = {getRandomQuestion};

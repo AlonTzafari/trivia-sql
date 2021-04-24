@@ -1,4 +1,4 @@
-const {getRandomCountriesWithColumn, getRandomValuesFromColumn} = require('./query');
+const {getRandomCountriesWithColumn, getRandomValuesFromColumn} = require('./Database');
 
 async function createRandomQuestion({type, template, column, comparison}) {
     if (type === 1) {

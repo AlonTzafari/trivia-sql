@@ -53,8 +53,16 @@ async function getRandomQuestion() {
 
 async function saveQuestion(questionObj) {
     const question = Question.build(questionObj);
-    await question.save();
+    return await question.save();
 }
+
+async function updateQuestionRating(id, rating) {
+    Question.findOne({
+        where: {id}
+    })
+    .then( question => question.update({rating}) );
+}
+
 
 async function saveUser(username) {
     console.log("username to build: ", username);
@@ -77,5 +85,8 @@ module.exports = {
     getRandomCountriesWithColumn,
     getRandomValuesFromColumn,
     getRandomQuestion,
-    saveUser
+    saveQuestion,
+    updateQuestionRating,
+    saveUser,
+    updateUserScore
 };
