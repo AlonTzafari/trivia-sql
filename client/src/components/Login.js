@@ -22,7 +22,7 @@ function Login() {
             <input type="text" ref={input} placeholder="Enter username"/>
             <button onClick={clickHandler}>START GAME</button>
             {start ? <Redirect to="/trivia"/> : null}
-            <Link to="/scoreboard">SCOREBOARD</Link>
+            <Link to="/scoreboard"><button>SCOREBOARD</button></Link>
         </div>
     )
 }

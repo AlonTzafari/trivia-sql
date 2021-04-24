@@ -2,6 +2,7 @@ import axios from 'axios'
 import {useEffect, useState, useContext} from 'react'
 import Question from './Question';
 import {userContext} from '../globalContext'
+import { Link } from 'react-router-dom';
 
 function Trivia() {
 
@@ -23,17 +24,27 @@ function Trivia() {
         } ).catch(() => setQuestionLoad("failed") );
     }
 
+    function addStrike() {
+        setStrikes(strikes + 1);
+    }
+
     return (
         <div>
             <h1>Trivia</h1>
-            <p>user: {userId}</p>
-            {
-                questionLoad === "loading" ? <h2>Loading...</h2> :
-                questionLoad === "failed" ? <h2>Failed loading </h2> :
-                questionLoad === "loaded" ? <Question question={question} nextQ={updateQuestion} /> : 
-                null
+            {strikes >= 3 ?
+                <> 
+                    <h2>WELL DONE</h2>
+                    <p>SCORE:</p>
+                    <Link to="/login"><button>RESTART</button></Link>
+                    <Link to="/scoreboard"><button>SCOREBOARD</button></Link>
+                </> : 
+                <>{
+                    questionLoad === "loading" ? <h2>Loading...</h2> :
+                    questionLoad === "failed" ? <h2>Failed loading </h2> :
+                    questionLoad === "loaded" ? <Question question={question} nextQ={updateQuestion} addStrike={addStrike}/> : 
+                    null
+                }</>
             }
-            
         </div>
     )
 }

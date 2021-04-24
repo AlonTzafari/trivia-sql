@@ -1,13 +1,14 @@
 import {useState} from 'react'
 import Rating from './Rating'
 
-function Question({question, nextQ}) {
+function Question({question, nextQ, addStrike}) {
     
     console.log(question);
     const [showRating, setShowRating] = useState(false);
 
     const chooseAnswer = (correct) => {
         setShowRating(true);
+        if (!correct) addStrike();
     }
 
     function rateQ(rate) {
