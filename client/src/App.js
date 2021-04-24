@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom
 import Login from './components/Login';
 import {userContext} from './globalContext'
 import {useState} from 'react';
+import Trivia from './components/Trivia'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
             <Login />
           </Route>
           <Route path="/trivia">
-            <h1>Trivia user: {userId}</h1>
+            <Trivia />
           </Route>
           <Route path="/scoreboard">
             <h1>Scoreboard</h1>

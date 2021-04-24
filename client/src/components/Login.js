@@ -9,7 +9,7 @@ function Login() {
     const [start, setStart] = useState(false);
     
     const clickHandler = () => {
-        const name = input.value;
+        const name = input.current.value;
         axios.put("/trivia/user", {username: name} )
         .then(res => {
             setUserId(res.data.userId);

@@ -1,5 +1,6 @@
 const {Router} = require('express');
-const {getRandomQuestion, saveUser, updateQuestionRating} = require('../utilScripts/Database');
+const {saveUser, updateQuestionRating} = require('../utilScripts/Database');
+const {getRandomQuestion} = require('../utilScripts/triviaUtils');
 const trivia = Router();
 
 trivia.put("/user", async (req, res, next) => {
@@ -16,9 +17,11 @@ trivia.put("/user", async (req, res, next) => {
 
 trivia.get("/question", async (req, res, next) => {
     try {
-        const {userIdStr} = req.body;
+        const userIdStr = req.headers.userid;
         const userId = Number(userIdStr);
-        if ( typeof(username) !== "number" || isNaN(userId) ) throw "Invalid userId";
+        console.log("req.headers: ", req.headers);
+        console.log("userId: ", userId);
+        if ( isNaN(userId) ) throw "Invalid userId";
         const question = await getRandomQuestion();
         res.status(200).send(question);
     } catch (error) {

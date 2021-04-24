@@ -42,7 +42,6 @@ async function getRandomValuesFromColumn(column, num = 1, filterId = null) {
 
 async function getRandomQuestion() {
     return Question.findAll({
-        where: filter,
         order: Sequelize.literal('rand()'),
         limit: 1
     })
