@@ -8,10 +8,10 @@ async function createRandomQuestion({type, template, column, comparison}) {
         else throw new Error("Invalid comparison");
         return {type,
             question: template,
-            answer: countries[0],
-            optionA: countries[2],
-            optionB: countries[1],
-            optionC: countries[3],
+            answer: countries[0].country,
+            optionA: countries[2].country,
+            optionB: countries[1].country,
+            optionC: countries[3].country,
             yesNo: false,
             rating: 0,
             votes: 0
