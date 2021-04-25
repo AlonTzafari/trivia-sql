@@ -11,10 +11,17 @@ function Trivia() {
     const [strikes, setStrikes] = useState(0);
     const [score, setScore] = useState(0);
     const {userId} = useContext(userContext);
+    const [questionRating, setQuestionRating] = useState([]);
 
     useEffect(() => {
         updateQuestion();
     }, [])
+
+    useEffect(() => {
+        if (strikes >= 3) {
+            axios.put("/trivia/end", {userId, ratings: questionRating, score});
+        }
+    }, [strikes])
 
     function updateQuestion() {
         setQuestionLoad("loading");
@@ -33,6 +40,10 @@ function Trivia() {
         setScore(score + amount);
     }
 
+    function addRating(rating) {
+        setQuestionRating( [...questionRating, rating]);
+    }
+
     return (
         <div>
             <h1>Trivia</h1>
@@ -48,7 +59,7 @@ function Trivia() {
                 <>{
                     questionLoad === "loading" ? <h2>Loading...</h2> :
                     questionLoad === "failed" ? <h2>Failed loading </h2> :
-                    questionLoad === "loaded" ? <Question question={question} nextQ={updateQuestion} addStrike={addStrike} addToScore={addToScore}/> : 
+                    questionLoad === "loaded" ? <Question question={question} nextQ={updateQuestion} addStrike={addStrike} addToScore={addToScore} addRating={addRating}/> : 
                     null
                 }</>
             }

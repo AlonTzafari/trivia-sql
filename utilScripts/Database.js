@@ -40,6 +40,13 @@ async function getRandomValuesFromColumn(column, num = 1, filterId = null) {
     .then( countries => countries.map( country => country.toJSON() ) )
 }
 
+async function getQuestionById(id) {
+    return Question.findOne({
+        where: {id: id}
+    })
+    .then( question => question.toJSON() );
+}
+
 async function getRandomQuestion() {
     return Question.findAll({
         order: Sequelize.literal('rand()'),
@@ -59,12 +66,14 @@ async function updateQuestionRating(id, rating) {
     Question.findOne({
         where: {id}
     })
-    .then( question => question.update({rating}) );
+    .then( question => {
+        const prevRate = question.toJSON().rating;
+        question.update({rating: prevRate + rating})
+    }); 
 }
 
 
 async function saveUser(username) {
-    console.log("username to build: ", username);
     const user = User.build({name: username});
     return await user.save();
 }
@@ -87,5 +96,6 @@ module.exports = {
     saveQuestion,
     updateQuestionRating,
     saveUser,
-    updateUserScore
+    updateUserScore,
+    getQuestionById
 };

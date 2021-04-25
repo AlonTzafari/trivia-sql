@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import Rating from './Rating'
 
-function Question({question, nextQ, addStrike, addToScore}) {
+function Question({question, nextQ, addStrike, addToScore, addRating}) {
     
     console.log(question);
     const [showRating, setShowRating] = useState(false);
@@ -15,6 +15,7 @@ function Question({question, nextQ, addStrike, addToScore}) {
     }
 
     function rateQ(rate) {
+        addRating({tempId: question.tempId, rating: rate});
         nextQ();
     }
 
