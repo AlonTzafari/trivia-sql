@@ -84,7 +84,13 @@ async function updateUserScore(id, score) {
     })
     .then( user => user.update({score}) );
 }
-
+async function getTopPlayers() {
+    return User.findAll({
+        order: [['score', 'DESC']],
+        limit: 100
+    })
+    .then( users => users.map( user => user.toJSON() ) );
+}
 
 
 module.exports = {
@@ -97,5 +103,6 @@ module.exports = {
     updateQuestionRating,
     saveUser,
     updateUserScore,
-    getQuestionById
+    getQuestionById,
+    getTopPlayers
 };

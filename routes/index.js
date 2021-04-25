@@ -4,6 +4,6 @@ const scoreboard = require('./scoreboard');
 const router = Router();
 
 router.use("/trivia", trivia);
-// router.use("/scoreboard", scoreboard);
+router.use("/scoreboard", scoreboard);
 
 module.exports = router;

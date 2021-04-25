@@ -3,7 +3,9 @@ import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom
 import Login from './components/Login';
 import {userContext} from './globalContext'
 import {useState} from 'react';
-import Trivia from './components/Trivia'
+import Trivia from './components/Trivia';
+import Scoreboard from './components/Scoreboard';
+
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
             <Trivia />
           </Route>
           <Route path="/scoreboard">
-            <h1>Scoreboard</h1>
+            <Scoreboard />
           </Route>
           <Route exact path="/">
             <Redirect to="/login"/>
