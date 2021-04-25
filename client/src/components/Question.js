@@ -15,6 +15,15 @@ function Question({question, nextQ, addStrike}) {
         nextQ();
     }
 
+    function shuffleArray(array) {
+        const arr = [...array];
+        for(let i = 0; i < arr.length; i++) {
+            const indexToShift = i + Math.floor(Math.random()*arr.length - i);
+            arr.unshift(arr.splice(indexToShift, 1)); 
+        }
+        return arr;
+    }
+
     return (
         <div>
             <p>{question.question}</p>
@@ -25,10 +34,14 @@ function Question({question, nextQ, addStrike}) {
                     <li onClick={ () => chooseAnswer(question.answer === "no") }>NO</li>
                 </> :
                 <>
-                    <li onClick={()=>chooseAnswer(true)}>{question.answer}</li>
-                    <li onClick={()=>chooseAnswer(false)}>{question.optionA}</li>
-                    <li onClick={()=>chooseAnswer(false)}>{question.optionB}</li>
-                    <li onClick={()=>chooseAnswer(false)}>{question.optionC}</li>
+                    {
+                        shuffleArray([
+                            <li onClick={()=>chooseAnswer(true)}>{question.answer}</li>,
+                            <li onClick={()=>chooseAnswer(false)}>{question.optionA}</li>,
+                            <li onClick={()=>chooseAnswer(false)}>{question.optionB}</li>,
+                            <li onClick={()=>chooseAnswer(false)}>{question.optionC}</li>
+                        ])
+                    }
                 </>
                 }
             </ol>
