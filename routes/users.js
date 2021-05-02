@@ -19,10 +19,23 @@ users.post("/register", async (req, res, next) => {
         res.status(201).json({name, score, createdAt});
     } catch (e) {
         return res.status(409).send('username taken');
-    }
-    
-    
+    } 
 });
 
+
+function validator(req, res, next) {
+    const accessToken = req.header('authorization');
+    const user = {noToken: true};
+    if(accessToken) {
+        user.noToken = false;
+        try {
+            user.info = jwt.verify(accessToken, ACCESS_KEY);
+        } catch (err) {
+            return res.status(401).end();
+        }
+    }
+    res.locals.user = user;
+    next();
+}
 
 module.exports = users;
