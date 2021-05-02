@@ -12,8 +12,9 @@ users.post("/register", async (req, res, next) => {
     const {username, password} = req.body;
     const isDetailsValid = typeof username === 'string' && typeof password === 'string' && username.length >= 3 && password.length >= 3; 
     if (!isDetailsValid) return res.status(400).send('invalid username or password');
+    const hashedPassword = bcrypt.hashSync(password, 10);
     try {
-        const savedUserModel = await saveUser({username, password});
+        const savedUserModel = await saveUser({username, password: hashedPassword});
         const {name, score, createdAt} = savedUserModel.toJSON(); 
         res.status(201).json({name, score, createdAt});
     } catch (e) {
