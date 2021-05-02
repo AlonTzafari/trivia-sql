@@ -37,6 +37,21 @@ users.post('/login', async (req, res, next) => {
     res.status(200).json({accessToken, refreshToken});
 });
 
+users.post('/logout', async (req, res, next) => {
+    const {refreshToken} = req.body;
+    if( !refreshToken ) res.status(400).end();
+    try {
+
+        jwt.verify(refreshToken, REFRESH_KEY)
+        if( !refreshTokens.includes(refreshToken) ) return res.status(400).end();
+        const removeIndex = refreshTokens.findIndex(sToken => sToken === refreshToken);
+        refreshTokens.splice(removeIndex, 1);
+        res.status(200).send("User Logged Out Successfully");    
+    } catch (e) {
+        if( !refreshTokens.includes(refreshToken) ) return res.status(400).end();
+    }
+});
+
 function validator(req, res, next) {
     const accessToken = req.header('authorization');
     const user = {noToken: true};
@@ -51,5 +66,7 @@ function validator(req, res, next) {
     res.locals.user = user;
     next();
 }
+
+
 
 module.exports = users;
