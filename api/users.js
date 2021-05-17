@@ -52,7 +52,7 @@ users.post('/logout', async (req, res, next) => {
     }
 });
 
-users.get('/info', validator, async (req, res, next) => {
+users.get('/info', async (req, res, next) => {
     try {
         const {user} = res.locals;
         if (user.noToken) return res.status(403).end();
@@ -62,22 +62,5 @@ users.get('/info', validator, async (req, res, next) => {
         next(err);
     }
 });
-
-function validator(req, res, next) {
-    const accessToken = req.header('authorization');
-    const user = {noToken: true};
-    if(accessToken) {
-        user.noToken = false;
-        try {
-            user.info = jwt.verify(accessToken, ACCESS_KEY);
-        } catch (err) {
-            return res.status(401).end();
-        }
-    }
-    res.locals.user = user;
-    next();
-}
-
-
 
 module.exports = users;

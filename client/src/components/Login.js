@@ -2,6 +2,7 @@ import {useRef, useContext} from 'react';
 import {useHistory} from 'react-router-dom';
 import {userContext} from '../globalContext';
 import axios from 'axios';
+
 function Login() {
 
     const {setUser} = useContext(userContext);
@@ -12,14 +13,15 @@ function Login() {
     const register = (username, password) => {
         return axios.post("/api/users/register", {username, password});
     }
+
     const login = (username, password) => {
         axios.post("/api/users/login", {username, password})
         .then(res => {
             const {accessToken, refreshToken} = res.data;
-            console.log({accessToken, refreshToken});
             setUser({name: username, accessToken, refreshToken});
             history.push('/profile')
-        }).catch(reason => console.log(reason));
+        })
+        .catch(reason => console.log(reason));
     }
 
     const registerHandler = () => {
@@ -37,9 +39,6 @@ function Login() {
         login(username, password);
     }
     
-
-    
-
     return (
         <div className="login page">
             <input type="text" ref={usernameRef} placeholder="username" required/>

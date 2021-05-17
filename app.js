@@ -6,7 +6,7 @@ const app = express();
 const appDir = path.join( __dirname, 'client', 'build');
 
 app.use((req, res, next) => {
-    console.log(req.method, req.baseUrl, req.originalUrl); 
+    console.log(req.method, req.originalUrl); 
     next();
 });
 
@@ -17,7 +17,6 @@ app.use(express.static(appDir));
 app.use("/api", api);
 
 app.get('*', (req, res, next) => {
-    console.log(req.path); 
     if (req.baseUrl.includes('/api')) return next();
     res.sendFile(path.join(appDir, 'index.html'));
 })
