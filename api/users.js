@@ -11,6 +11,7 @@ const refreshTokens = [];
 
 users.post("/register", async (req, res, next) => {
     const {username, password} = req.body;
+    getUser
     const isDetailsValid = typeof username === 'string' && typeof password === 'string' && username.length >= 3 && password.length >= 3;
     if (!isDetailsValid) return res.status(400).send('invalid username or password');
     const hashedPassword = bcrypt.hashSync(password, 10);

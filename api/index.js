@@ -2,10 +2,10 @@ const {Router} = require('express');
 const trivia = require('./trivia');
 const scoreboard = require('./scoreboard');
 const users = require('./users');
-const router = Router();
+const api = Router();
 
-router.use("/trivia", trivia);
-router.use("/scoreboard", scoreboard);
-router.use("/users", users);
+api.use("/trivia", trivia);
+api.use("/scoreboard", scoreboard);
+api.use("/users", users);
 
-module.exports = router;
+module.exports = api;
