@@ -11,7 +11,6 @@ const refreshTokens = [];
 
 users.post("/register", async (req, res, next) => {
     const {username, password} = req.body;
-    getUser
     const isDetailsValid = typeof username === 'string' && typeof password === 'string' && username.length >= 3 && password.length >= 3;
     if (!isDetailsValid) return res.status(400).send('invalid username or password');
     const hashedPassword = bcrypt.hashSync(password, 10);
@@ -50,6 +49,17 @@ users.post('/logout', async (req, res, next) => {
         res.status(200).send("User Logged Out Successfully");    
     } catch (e) {
         if( !refreshTokens.includes(refreshToken) ) return res.status(400).end();
+    }
+});
+
+users.get('/info', validator, async (req, res, next) => {
+    try {
+        const {user} = res.locals;
+        if (user.noToken) return res.status(403).end();
+        const {name, score} = await getUser(user.info.name);
+        res.status(200).send({name, score}) 
+    } catch (err) {
+        next(err);
     }
 });
 
