@@ -36,6 +36,7 @@ function Question({question, nextQ, addStrike, addToScore, addRating}) {
 
     useEffect(() => {
         shuffleArray(questions);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [question])
 
     return (

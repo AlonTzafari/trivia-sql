@@ -1,7 +1,6 @@
 import api from '../api';
-import {useEffect, useState, useContext} from 'react'
+import {useEffect, useState} from 'react'
 import Question from './Question';
-import {userContext} from '../globalContext'
 import { Link } from 'react-router-dom';
 
 function Trivia() {
@@ -10,7 +9,6 @@ function Trivia() {
     const [questionLoad, setQuestionLoad] = useState("loading");
     const [strikes, setStrikes] = useState(0);
     const [score, setScore] = useState(0);
-    const {user} = useContext(userContext);
     const [questionRating, setQuestionRating] = useState([]);
 
     useEffect(() => {
@@ -21,6 +19,7 @@ function Trivia() {
         if (strikes >= 3) {
             api.put("api/trivia/end", {ratings: questionRating, score});
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [strikes])
 
     function updateQuestion() {

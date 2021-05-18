@@ -24,19 +24,6 @@ trivia.get("/question", async (req, res, next) => {
     
 });
 
-// trivia.put("/question", async (req, res, next) => {
-//     try {
-//         const {userIdStr,questionId, rating} = req.body;
-//         const userId = Number(userIdStr);
-//         if ( typeof(userId) !== "number" || isNaN(userId) ) throw "Invalid userId";
-//         await updateQuestionRating(questionId, rating);
-//         res.status(200).end();
-//     } catch (error) {
-//         next(error);
-//     }
-    
-// })
-
 trivia.put("/end", async (req, res, next) => {
     try {
         console.log("end game");
