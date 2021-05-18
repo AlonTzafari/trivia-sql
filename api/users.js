@@ -6,6 +6,7 @@ const users = Router();
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 const REFRESH_KEY = process.env.REFRESH_KEY;
+const ACCESS_KEY_EXP = 10;
 
 const refreshTokens = [];
 
@@ -30,8 +31,8 @@ users.post('/login', async (req, res, next) => {
     const user = await getUser(username);
     if (!user) return res.status(403).send('invalid username or password');
     if( !bcrypt.compareSync(password, user.password) ) return res.status(403).send('invalid username or password');
-    const payload = {name: user.name, createdAt:user.createdAt};
-    const accessToken = jwt.sign( payload, ACCESS_KEY, {expiresIn: 10} ); 
+    const payload = {name: user.name, createdAt:user.createdAt, iat: Math.floor(Date.now() / 1000)};
+    const accessToken = jwt.sign( payload, ACCESS_KEY, {expiresIn: ACCESS_KEY_EXP} ); 
     const refreshToken = jwt.sign( payload, REFRESH_KEY);
     refreshTokens.push(refreshToken);
     res.status(200).json({accessToken, refreshToken});
@@ -60,6 +61,19 @@ users.get('/info', async (req, res, next) => {
         res.status(200).send({name, score}) 
     } catch (err) {
         next(err);
+    }
+});
+
+users.put('/token', async (req, res, next) => {
+    try {
+        const {refreshToken} = req.body;
+        if (refreshTokens.indexOf(refreshToken) === -1) throw 'invalid token';
+        const {name, createdAt} = jwt.verify(refreshToken, REFRESH_KEY);
+        const accessToken = jwt.sign({name, createdAt, iat: Math.floor(Date.now() / 1000)}, ACCESS_KEY, {expiresIn: ACCESS_KEY_EXP});
+        res.status(200).json({accessToken}) 
+    } catch (err) {
+        console.log(err);
+        res.status(401).json({action:'refresh', message: 'refresh denied'});
     }
 });
 

@@ -1,7 +1,7 @@
 import {useRef, useContext} from 'react';
 import {useHistory} from 'react-router-dom';
 import {userContext} from '../globalContext';
-import axios from 'axios';
+import api, {setAuth} from '../api';
 
 function Login() {
 
@@ -11,14 +11,15 @@ function Login() {
     const passwordRef = useRef();
     
     const register = (username, password) => {
-        return axios.post("/api/users/register", {username, password});
+        return api.post("/api/users/register", {username, password});
     }
 
     const login = (username, password) => {
-        axios.post("/api/users/login", {username, password})
+        api.post("/api/users/login", {username, password})
         .then(res => {
             const {accessToken, refreshToken} = res.data;
-            setUser({name: username, accessToken, refreshToken});
+            setUser({name: username});
+            setAuth(accessToken, refreshToken);
             history.push('/profile')
         })
         .catch(reason => console.log(reason));
