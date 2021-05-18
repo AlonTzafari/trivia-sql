@@ -18,7 +18,7 @@ function Login() {
         api.post("/api/users/login", {username, password})
         .then(res => {
             const {accessToken, refreshToken} = res.data;
-            setUser({name: username});
+            setUser({name: username, refreshToken});
             setAuth(accessToken, refreshToken);
             history.push('/profile')
         })

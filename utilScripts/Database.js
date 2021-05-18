@@ -93,7 +93,9 @@ async function updateUserScore(name, score) {
     User.findOne({
         where: {name}
     })
-    .then( user => user.update({score}) );
+    .then( user => {
+        user.update({score: score + user.score});
+    });
 }
 async function getTopPlayers() {
     return User.findAll({

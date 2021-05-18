@@ -53,7 +53,7 @@ function Trivia() {
                 <> 
                     <h2>WELL DONE</h2>
                     
-                    <Link to="/login"><button>RESTART</button></Link>
+                    <Link to="/profile"><button>HOME</button></Link>
                     <Link to="/scoreboard"><button>SCOREBOARD</button></Link>
                 </> : 
                 <>{

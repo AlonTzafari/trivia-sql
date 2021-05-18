@@ -6,17 +6,20 @@ import api, { setAuth } from "../api";
 function Profile() {
     const { user, setUser } = useContext(userContext);
     const history = useHistory();
-    const [state, setState] = useState({});
+    const [loading, setLoading] = useState('loaded');
 
     useEffect(() => {
+        setLoading('loading');
         api.get("/api/users/info")
         .then((res) => {
             const { score } = res.data;
-            console.log('score: ', score);
             setUser(Object.assign({}, user, { score }));
+            setLoading('loaded');
+        }).catch(() => {
+            setLoading('failed')
         });
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [state]);
+    }, []);
 
     const logoutHandler = () => {
         const { refreshToken } = user;
@@ -30,9 +33,14 @@ function Profile() {
     return (
         <div>
             <h2>{user.name}</h2>
-            <h2>{`SCORE: ${user.score}`}</h2>
+            <h2>{`SCORE: ${loading === 'loading' ? 'Loading...' : loading === 'failed' ? 'X' : user.score}`}</h2>
             <button onClick={logoutHandler}>log out</button>
-            <Link to='/trivia'>START</Link>
+            <div>
+                <Link to='/trivia'>START</Link>
+            </div>
+            <div>
+                <Link to='/scoreboard'>SCOREBOARD</Link>
+            </div>
         </div>
     );
 }
