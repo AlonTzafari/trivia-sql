@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { userContext } from "../globalContext";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import api, { setAuth } from "../api";
 
 function Profile() {
@@ -32,7 +32,7 @@ function Profile() {
             <h2>{user.name}</h2>
             <h2>{`SCORE: ${user.score}`}</h2>
             <button onClick={logoutHandler}>log out</button>
-            <button onClick={() => setState({})}>UPDATE</button>
+            <Link to='/trivia'>START</Link>
         </div>
     );
 }

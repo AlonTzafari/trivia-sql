@@ -1,30 +1,18 @@
 const {Router} = require('express');
-const {saveUser, updateQuestionRating, saveQuestion, updateUserScore} = require('../utilScripts/Database');
+const {saveUser,getUser, updateQuestionRating, saveQuestion, updateUserScore} = require('../utilScripts/Database');
 const {getRandomQuestion} = require('../utilScripts/triviaUtils');
 const trivia = Router();
 
-const players = [];
-
-trivia.put("/user", async (req, res, next) => {
-    try {
-        const {username} = req.body;
-        const {id} = await saveUser(username);
-        players.push({id, username, questions: [] })
-        res.status(201).send({userId: id});
-    } catch (error) {
-        next(error);
-    }
-    
-});
+const players = {};
 
 trivia.get("/question", async (req, res, next) => {
     try {
-        const userIdStr = req.headers.userid;
-        const userId = Number(userIdStr);
-        if ( isNaN(userId) ) throw "Invalid userId";
-        const player = players.find(player => player.id === userId);
+        const {user} = res.locals;
+        if (user.noToken) return res.status(401).end();
+        const username = user.info.name;
+        if ( !players.hasOwnProperty(username) ) players[username] = {questions: []}; 
+        const player = players[username];  
         const generateQ = (player.questions.length > 0) && (player.questions.length % 3 === 0);
-        console.log("generating question: ", generateQ);
         let question = await getRandomQuestion(generateQ);
         if ( player.questions.some( q => q.id === question.id) ) question = await getRandomQuestion(true);
         player.questions.push(question);

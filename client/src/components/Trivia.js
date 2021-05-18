@@ -1,4 +1,4 @@
-import axios from 'axios'
+import api from '../api';
 import {useEffect, useState, useContext} from 'react'
 import Question from './Question';
 import {userContext} from '../globalContext'
@@ -10,7 +10,7 @@ function Trivia() {
     const [questionLoad, setQuestionLoad] = useState("loading");
     const [strikes, setStrikes] = useState(0);
     const [score, setScore] = useState(0);
-    const {userId} = useContext(userContext);
+    const {user} = useContext(userContext);
     const [questionRating, setQuestionRating] = useState([]);
 
     useEffect(() => {
@@ -19,13 +19,13 @@ function Trivia() {
 
     useEffect(() => {
         if (strikes >= 3) {
-            axios.put("/trivia/end", {userId, ratings: questionRating, score});
+            api.put("api/trivia/end", {ratings: questionRating, score});
         }
     }, [strikes])
 
     function updateQuestion() {
         setQuestionLoad("loading");
-        axios.get('/trivia/question', {headers: {userId: userId}})
+        api.get('api/trivia/question')
         .then( ({data}) => {
             setQuestion(data);
             setQuestionLoad("loaded");
