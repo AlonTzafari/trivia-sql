@@ -40,10 +40,10 @@ trivia.get("/question", async (req, res, next) => {
 trivia.put("/end", async (req, res, next) => {
     try {
         console.log("end game");
-        const {userId: serIdStr, ratings, score} = req.body;
-        const userId = Number(serIdStr);
-        if ( typeof(userId) !== "number" || isNaN(userId) ) throw "Invalid userId";
-        const player = players.find(player => player.id === userId);
+        const {ratings, score} = req.body;
+        const user = res.locals.user;
+        if (user.noToken) return res.status(401).end();
+        const player = players[user.info.name];
         for(const rating of ratings) {
             const question = player.questions[rating.tempId];
             if(question.id) {
@@ -55,9 +55,8 @@ trivia.put("/end", async (req, res, next) => {
                 await saveQuestion(question);
             }
         }
-        await updateUserScore(userId, score);
-        const indexToRemove = players.findIndex(player => player.id === userId);
-        players.splice(indexToRemove, 1);
+        await updateUserScore(user.info.name, score);
+        delete players[user.info.name];
         res.status(200).end();
     } catch (error) {
         next(error);

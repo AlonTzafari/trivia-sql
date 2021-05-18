@@ -89,9 +89,9 @@ function getUser(username) {
     .then( user => user?.toJSON() );
 }
 
-async function updateUserScore(id, score) {
+async function updateUserScore(name, score) {
     User.findOne({
-        where: {id}
+        where: {name}
     })
     .then( user => user.update({score}) );
 }
