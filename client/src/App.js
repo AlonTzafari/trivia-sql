@@ -1,25 +1,28 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
-import Login from './components/Login';
 import {userContext} from './globalContext'
 import {useState} from 'react';
+import Login from './components/Login';
+import Profile from './components/Profile';
 import Trivia from './components/Trivia';
 import Scoreboard from './components/Scoreboard';
 
 
 function App() {
 
-  const [userId, setUserId] = useState(null);
+  const [user, setUser] = useState(null);
 
   return (
-      <userContext.Provider value={{userId, setUserId}}>
+      <userContext.Provider value={{user, setUser}}>
 
     <div className="App">
       <Router>
         <Switch>
           <Route path="/login">
-            <h1>Login</h1>
             <Login />
+          </Route>
+          <Route path="/profile">
+            <Profile />
           </Route>
           <Route path="/trivia">
             <Trivia />

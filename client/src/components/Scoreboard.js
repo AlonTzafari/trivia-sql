@@ -1,5 +1,6 @@
-import axios from 'axios'
+import api from '../api'
 import {useEffect, useState} from 'react'
+import {Link} from 'react-router-dom';
 
 function Scoreboard() {
     
@@ -8,7 +9,7 @@ function Scoreboard() {
 
     useEffect(() => {
         setQuestionLoad("loading");
-        axios.get("/scoreboard")
+        api.get("/api/scoreboard")
         .then(({data}) => {
             setPlayers(data)
             setQuestionLoad("loaded");
@@ -19,6 +20,7 @@ function Scoreboard() {
     return (
         <div>
             <h1>SCOREBOARD</h1>
+            <Link to='/profile'>HOME</Link>
             {
                 questionLoad === "loading" ? <h2>Loading...</h2> :
                 questionLoad === "failed" ? <h2>Loading Failed</h2> :

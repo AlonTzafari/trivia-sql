@@ -20,10 +20,10 @@ function Question({question, nextQ, addStrike, addToScore, addRating}) {
     }
 
     const questions = [
-        <li onClick={()=>chooseAnswer(true)}>{question.answer}</li>,
-        <li onClick={()=>chooseAnswer(false)}>{question.optionA}</li>,
-        <li onClick={()=>chooseAnswer(false)}>{question.optionB}</li>,
-        <li onClick={()=>chooseAnswer(false)}>{question.optionC}</li>
+        <li key={0} onClick={()=>chooseAnswer(true)}>{question.answer}</li>,
+        <li key={1} onClick={()=>chooseAnswer(false)}>{question.optionA}</li>,
+        <li key={2} onClick={()=>chooseAnswer(false)}>{question.optionB}</li>,
+        <li key={3} onClick={()=>chooseAnswer(false)}>{question.optionC}</li>
     ];
 
     function shuffleArray(array) {
@@ -36,6 +36,7 @@ function Question({question, nextQ, addStrike, addToScore, addRating}) {
 
     useEffect(() => {
         shuffleArray(questions);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [question])
 
     return (
@@ -44,8 +45,8 @@ function Question({question, nextQ, addStrike, addToScore, addRating}) {
             <ol>
                 {question.type === 3 ?
                 <>
-                    <li onClick={ () => chooseAnswer(question.answer === "yes") }>YES</li>
-                    <li onClick={ () => chooseAnswer(question.answer === "no") }>NO</li>
+                    <li key={0} onClick={ () => chooseAnswer(question.answer === "yes") }>YES</li>
+                    <li key={1} onClick={ () => chooseAnswer(question.answer === "no") }>NO</li>
                 </> :
                 <>
                     { questions }

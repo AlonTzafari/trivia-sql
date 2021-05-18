@@ -73,16 +73,29 @@ async function updateQuestionRating(id, rating) {
 }
 
 
-async function saveUser(username) {
-    const user = User.build({name: username});
+async function saveUser({username, password}) {
+    const isNameUsed = await User.findOne({
+        where: { name: username }
+    });
+    if (isNameUsed) throw "username taken";
+    const user = User.build({name: username, password});
     return await user.save();
 }
 
-async function updateUserScore(id, score) {
-    User.findOne({
-        where: {id}
+function getUser(username) {
+    return User.findOne({
+        where: { name: username }
     })
-    .then( user => user.update({score}) );
+    .then( user => user?.toJSON() );
+}
+
+async function updateUserScore(name, score) {
+    User.findOne({
+        where: {name}
+    })
+    .then( user => {
+        user.update({score: score + user.score});
+    });
 }
 async function getTopPlayers() {
     return User.findAll({
@@ -102,6 +115,7 @@ module.exports = {
     saveQuestion,
     updateQuestionRating,
     saveUser,
+    getUser,
     updateUserScore,
     getQuestionById,
     getTopPlayers

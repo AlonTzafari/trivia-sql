@@ -1,7 +1,6 @@
-import axios from 'axios'
-import {useEffect, useState, useContext} from 'react'
+import api from '../api';
+import {useEffect, useState} from 'react'
 import Question from './Question';
-import {userContext} from '../globalContext'
 import { Link } from 'react-router-dom';
 
 function Trivia() {
@@ -10,7 +9,6 @@ function Trivia() {
     const [questionLoad, setQuestionLoad] = useState("loading");
     const [strikes, setStrikes] = useState(0);
     const [score, setScore] = useState(0);
-    const {userId} = useContext(userContext);
     const [questionRating, setQuestionRating] = useState([]);
 
     useEffect(() => {
@@ -19,13 +17,14 @@ function Trivia() {
 
     useEffect(() => {
         if (strikes >= 3) {
-            axios.put("/trivia/end", {userId, ratings: questionRating, score});
+            api.put("api/trivia/end", {ratings: questionRating, score});
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [strikes])
 
     function updateQuestion() {
         setQuestionLoad("loading");
-        axios.get('/trivia/question', {headers: {userId: userId}})
+        api.get('api/trivia/question')
         .then( ({data}) => {
             setQuestion(data);
             setQuestionLoad("loaded");
@@ -53,7 +52,7 @@ function Trivia() {
                 <> 
                     <h2>WELL DONE</h2>
                     
-                    <Link to="/login"><button>RESTART</button></Link>
+                    <Link to="/profile"><button>HOME</button></Link>
                     <Link to="/scoreboard"><button>SCOREBOARD</button></Link>
                 </> : 
                 <>{
